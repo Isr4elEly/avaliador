@@ -1,0 +1,14 @@
+site_name: Avaliador
+repo_url: https://github.com/Isr4elEly/avaliador
+repo_name: Isr4elEly/avaliador
+edit_uri: tree/master/docs
+
+theme:
+  name: material
+  language: pt-BR
+
+markdown_extensions: 
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
