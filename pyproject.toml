@@ -2,12 +2,25 @@
 name = "avaliador"
 version = "0.1.0"
 description = ""
-authors = ["maisamazoniageo <maisamazoniageo@gmail.com>"]
+authors = ["Israel Ely <israelely76@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.0"
+pytest-cov = "^4.0.0"
+blue = "^0.9.1"
+isort = "^5.12.0"
+taskipy = "^1.10.4"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.1.6"
+mkdocstrings = "^0.21.2"
+mkdocstrings-python = "^0.9.0"
 
 [build-system]
 requires = ["poetry-core"]
